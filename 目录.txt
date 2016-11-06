@@ -1,0 +1,22 @@
+ch01
+    read.lua                读取命令行输入
+    comments.lua            注释和un注释
+    run_lua.sh              -i -l -e选项和命令行参数
+
+ch02
+    show_type.lua           类型
+    multiline_str.lua       多行字符串
+    string_change.lua       字符串自动连接和转换
+    test_table.lua          table的基本使用
+    
+ch03
+    比较不同类型的变量会抛错
+    注意false和nil是假,其他都是真
+    字符串是immutable的, ..连接操作符不会修改原先的字符串
+    table_constructor.lua   关联数组构造语法
+    
+ch04
+    swap.lua               多重赋值和交换变量
+    在交互模式中,使用do...end界定一个代码块(否则,每一行都是一个独立的程序块,)
+    
+    
