@@ -26,6 +26,7 @@ ch05 函数
     named_var.lua           具名参数(lua不支持,但可以通过一个table参数实现)
     
 
-
+ch06 深入函数
+    derivative.lua          高阶函数实现导数
     
     
