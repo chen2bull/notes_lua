@@ -32,5 +32,9 @@ ch06 深入函数
     non_globalfunc.lua      非全局函数
     tailcall.lua            正确的尾调用
 
+ch07 迭代器
+    iter_closure.lua        迭代器定义
+    my_ipairs.lua           无状态迭代器,避免每次创建新的闭包
+    
 
 
