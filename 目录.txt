@@ -28,5 +28,9 @@ ch05 函数
 
 ch06 深入函数
     derivative.lua          高阶函数实现导数
-    
-    
+    closure.lua             闭包
+    non_globalfunc.lua      非全局函数
+    tailcall.lua            正确的尾调用
+
+
+
