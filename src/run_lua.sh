@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 
-#-eֱ��ִ������
+#-e直接执行命令
 lua -e "print(math.sin(12))"
 
-#-l ���ؿ��ļ�
+#-l 加载库文件
 lua -l a 
 
-#-i ִ�����ļ��Ժ���뽻��ģʽ
+#-i 执行完文件以后进入交互模式
 lua -i -e "_PROMPT='lua>'"
 
-#�����в�����,�ű�����λ������0��,�ű�֮ǰ��ѡ�����λ�ڸ���������
+#命令行参数中,脚本名称位于索引0上,脚本之前的选项参数位于负数索引上
 #arg[-3]		"lua"
 #arg[-2]		"-e"
 #arg[-1]		"sin=math.sin"
