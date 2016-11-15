@@ -35,7 +35,12 @@ ch06 深入函数
 ch07 迭代器
     iter_closure.lua        迭代器定义
     my_ipairs.lua           无状态迭代器,避免每次创建新的闭包
+
     
+loadfile——只编译，不运行
+dofile——执行
+require——只执行一次(如果有全局变量的话,a=a+1这类语句,如果模块被跑多次,结果不能接受)
+
 
 ch14 环境
     show_g.lua              将环境放在table中,所有全局变量(包括环境)放在_G中
