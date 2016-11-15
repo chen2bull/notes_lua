@@ -37,4 +37,7 @@ ch07 迭代器
     my_ipairs.lua           无状态迭代器,避免每次创建新的闭包
     
 
+ch14 环境
+    show_g.lua              将环境放在table中,所有全局变量(包括环境)放在_G中
+    show_m.lua              非全局的环境,不要使用setfenv/getfenv,使用_ENV
 
